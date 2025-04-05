@@ -46,23 +46,24 @@ const Header = () => {
             Home
           </NavLink>
           <NavLink
-            to="/about"
+            to="about"
             className="block py-2 px-4 hover:bg-blue-700 rounded lg:inline"
           >
             About
           </NavLink>
-          <a
-            href="#"
+          <NavLink
+            to="service"
             className="block py-2 px-4 hover:bg-blue-700 rounded lg:inline"
           >
             Services
-          </a>
-          <a
-            href="#"
+          </NavLink>
+          <NavLink
+            to="contact"
+           
             className="block py-2 px-4 hover:bg-blue-700 rounded lg:inline"
           >
             Contact
-          </a>
+          </NavLink>
         </nav>
       </div>
     </header>
